@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[Git的安装]]></title>
     <url>%2Fzzzccm.github.io%2F2019%2F09%2F05%2FGit%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[Git的安装Git(分布式版本控制系统)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 Git是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 Git开发过程 Git安装步骤 打开下载好的程序 开始安装 选择安装路径 完成 鼠标右键菜单会显示这两项 快捷键打开win+R，输入cmd 打开DOS窗口，输入git或者git –-version查看是否安装成功 出现版本号即表示安装成功 可能出现的问题 当点击打开Git Bash Here时，出现如下窗口 原因：路径不能有中文。 解决：卸载重装 配置 姓名和Email用于日志标识 git config –global user.name “xxx”git config –global user.email “xxx@xxx.com” 查看配置 命令： git config –global –list 在Windows上，右键快捷菜单，选择Bash操作界面 进入界面，再输入命令： ssh-keygen -t rsa -C “xxxxxx@qq.com” 在路径C/User/xxx/.ssh中找到id_rsa.pub 用记事本或者写字板打开id_rsa.pub文件，复制其中的全部内容 在github上注册好自己的账号，进入到设置界面 Title输入标题，在Key里粘贴上刚才的内容 添加完成 做下测试是否连接上了 ssh -T git@github.com安装完成！]]></content>
+    <content type="text"><![CDATA[Git(分布式版本控制系统)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 Git是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 Git开发过程 Git安装步骤 打开下载好的程序 开始安装 选择安装路径 完成 鼠标右键菜单会显示这两项 快捷键打开win+R，输入cmd 打开DOS窗口，输入git或者git –-version查看是否安装成功 出现版本号即表示安装成功 可能出现的问题 当点击打开Git Bash Here时，出现如下窗口 原因：路径不能有中文。 解决：卸载重装 配置 姓名和Email用于日志标识 git config –global user.name “xxx”git config –global user.email “xxx@xxx.com” 查看配置 命令： git config –global –list 在Windows上，右键快捷菜单，选择Bash操作界面 进入界面，再输入命令： ssh-keygen -t rsa -C “xxxxxx@qq.com” 在路径C/User/xxx/.ssh中找到id_rsa.pub 用记事本或者写字板打开id_rsa.pub文件，复制其中的全部内容 在github上注册好自己的账号，进入到设置界面 Title输入标题，在Key里粘贴上刚才的内容 添加完成 做下测试是否连接上了 ssh -T git@github.com安装完成！]]></content>
   </entry>
   <entry>
     <title><![CDATA[The First Post]]></title>
