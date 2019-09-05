@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Git的安装]]></title>
-    <url>%2Fzzzccm.github.io%2F2019%2F09%2F05%2FGit%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[Git(分布式版本控制系统)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 Git是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 Git开发过程 Git安装步骤 打开下载好的程序 开始安装 选择安装路径 完成 鼠标右键菜单会显示这两项 快捷键打开win+R，输入cmd 打开DOS窗口，输入git或者git –-version查看是否安装成功 出现版本号即表示安装成功 可能出现的问题 当点击打开Git Bash Here时，出现如下窗口 原因：路径不能有中文。 解决：卸载重装 配置 姓名和Email用于日志标识 git config –global user.name “xxx”git config –global user.email “xxx@xxx.com” 查看配置 命令： git config –global –list 在Windows上，右键快捷菜单，选择Bash操作界面 进入界面，再输入命令： ssh-keygen -t rsa -C “xxxxxx@qq.com” 在路径C/User/xxx/.ssh中找到id_rsa.pub 用记事本或者写字板打开id_rsa.pub文件，复制其中的全部内容 在github上注册好自己的账号，进入到设置界面 Title输入标题，在Key里粘贴上刚才的内容 添加完成 做下测试是否连接上了 ssh -T git@github.com安装完成！]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[The First Post]]></title>
-    <url>%2Fzzzccm.github.io%2F2019%2F08%2F21%2FThe-First-Post%2F</url>
-    <content type="text"><![CDATA[]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Git的安装</title>
+      <link href="/zzzccm.github.io/2019/09/05/Git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>/zzzccm.github.io/2019/09/05/Git%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><p>Git(分布式版本控制系统)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 Git是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p><h2 id="Git开发过程"><a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/#Git开发过程" class="headerlink" title="Git开发过程"></a>Git开发过程</h2><p><img src="https://img-blog.csdnimg.cn/20190905150053911.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="开发过程"></p><h2 id="Git安装步骤"><a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/#Git安装步骤" class="headerlink" title="Git安装步骤"></a>Git安装步骤</h2><ul><li>打开下载好的程序<br><img src="https://img-blog.csdnimg.cn/2019090515075466.png" alt="02"></li><li>开始安装<br><img src="https://img-blog.csdnimg.cn/20190905150954626.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="03"></li><li>选择安装路径<br><img src="https://img-blog.csdnimg.cn/20190905152245549.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="04"><br><img src="https://img-blog.csdnimg.cn/20190905152353441.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152420603.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152434140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152458276.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152537477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152600146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152639379.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/2019090515271024.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152722602.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li><li>完成<br><img src="https://img-blog.csdnimg.cn/20190905152737581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li><li>鼠标右键菜单会显示这两项<br><img src="https://img-blog.csdnimg.cn/20190905152813529.png" alt="在这里插入图片描述"></li><li>快捷键打开win+R，输入cmd<br><img src="https://img-blog.csdnimg.cn/2019090515283894.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li><li>打开DOS窗口，输入git或者git –-version查看是否安装成功<br><img src="https://img-blog.csdnimg.cn/20190905152902890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190905152951753.png" alt="在这里插入图片描述"></li></ul><p>出现版本号即表示安装成功</p><h2 id="可能出现的问题"><a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h2><ul><li>当点击打开Git Bash Here时，出现如下窗口<br><img src="https://img-blog.csdnimg.cn/20190905152938102.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li></ul><p>原因：路径不能有中文。</p><p>解决：卸载重装</p><p><img src="https://img-blog.csdnimg.cn/20190905153130834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="配置"><a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/#配置" class="headerlink" title="配置"></a>配置</h2><ul><li>姓名和Email用于日志标识<blockquote><p>git config –global user.name “xxx”<br>git config –global user.email “<a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/mailto:xxx@xxx.com" target="_blank" rel="noopener">xxx@xxx.com</a>”<br><img src="https://img-blog.csdnimg.cn/20190905153231604.png" alt="在这里插入图片描述"></p></blockquote></li></ul><h2 id="查看配置"><a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/#查看配置" class="headerlink" title="查看配置"></a>查看配置</h2><ul><li><p>命令：</p><blockquote><p>git config –global –list<br><img src="https://img-blog.csdnimg.cn/20190905153330969.png" alt="在这里插入图片描述"></p></blockquote></li><li><p>在Windows上，右键快捷菜单，选择Bash操作界面<br><img src="https://img-blog.csdnimg.cn/20190905153545728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>进入界面，再输入命令：</p><blockquote><p>ssh-keygen -t rsa -C “<a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/mailto:xxxxxx@qq.com" target="_blank" rel="noopener">xxxxxx@qq.com</a>”<br><img src="https://img-blog.csdnimg.cn/20190905153615647.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></blockquote></li><li><p>在路径C/User/xxx/.ssh中找到id_rsa.pub<br><img src="https://img-blog.csdnimg.cn/20190905153646812.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>用记事本或者写字板打开id_rsa.pub文件，复制其中的全部内容<br><img src="https://img-blog.csdnimg.cn/20190905153715698.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>在github上注册好自己的账号，进入到设置界面<br><img src="https://img-blog.csdnimg.cn/20190905153733420.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>Title输入标题，在Key里粘贴上刚才的内容<br><img src="https://img-blog.csdnimg.cn/20190905153801576.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>添加完成<br><img src="https://img-blog.csdnimg.cn/20190905153820769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></li><li><p>做下测试是否连接上了</p><blockquote><p>ssh -T <a href="/zzzccm.github.io/zzzccm/zzzccm.github.io/2019/09/05/Git的使用/mailto:git@github.com">git@github.com</a><br><img src="https://img-blog.csdnimg.cn/20190905153847520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NtWmh1bw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>安装完成！</p></blockquote></li></ul></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>The First Post</title>
+      <link href="/zzzccm.github.io/2019/08/21/The-First-Post/"/>
+      <url>/zzzccm.github.io/2019/08/21/The-First-Post/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body></body></html>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
