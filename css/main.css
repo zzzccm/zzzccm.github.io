@@ -1914,7 +1914,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d48755;
+  background: #9ce5b4;
 }
 .links-of-author-item {
   text-align: center;
@@ -3102,9 +3102,9 @@ img:hover {
   }
   .main-inner {
     background: #fff;
-    opacity: 0.8;
+    opacity: 0.5;
   }
   .header-inner {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 }
